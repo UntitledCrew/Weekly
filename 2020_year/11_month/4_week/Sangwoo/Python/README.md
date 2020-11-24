@@ -2,9 +2,9 @@
 
 - [X] [chap 16. dict& defaultdict](https://sangwoo0727.github.io/python/Python-10_dictionary/)
 
-- [ ] chap 17. dict& OrderedDict
+- [X] [chap 17. dict& OrderedDict](https://sangwoo0727.github.io/python/Python-11_OrderedDict/)
 
-- [ ] chap 18. 자료형 분류와 set & frozenset
+- [X] [chap 18. 자료형 분류와 set & frozenset](https://sangwoo0727.github.io/python/Python-12_set_and_frozenset/)
 
 - [ ] chap 19. 정렬 기술
 
