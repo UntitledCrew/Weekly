@@ -6,10 +6,10 @@
 
 - [X] [chap 18. 자료형 분류와 set & frozenset](https://sangwoo0727.github.io/python/Python-12_set_and_frozenset/)
 
-- [ ] chap 19. 정렬 기술
+- [X] chap 19. 정렬 기술
 
-- [ ] chap 20. enumerate와 문자열 비교
+- [X] chap 20. enumerate와 문자열 비교
 
-- [ ] chap 21. 표현식 기반 문자열 조합
+- [X] [chap 21. 표현식 기반 문자열 조합](https://sangwoo0727.github.io/python/Python-13_StringFormatting/)
 
-- [ ] chap 22. 메소드 기반 문자열 조합
+- [X] [chap 22. 메소드 기반 문자열 조합](https://sangwoo0727.github.io/python/Python-13_StringFormatting/)
