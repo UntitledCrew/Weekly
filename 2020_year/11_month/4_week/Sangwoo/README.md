@@ -6,4 +6,4 @@
 
 - [X] [파이썬 chap 16 ~ 22](https://github.com/UntitledCrew/Weekly/tree/sangwoo/2020_year/11_month/4_week/Sangwoo/Python)
 
-- [ ] 주말에는 제주도 여행이라 휴무
+- [X] 주말에는 제주도 여행이라 휴무
