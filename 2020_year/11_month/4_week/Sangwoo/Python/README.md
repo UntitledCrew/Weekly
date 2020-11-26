@@ -13,3 +13,10 @@
 - [X] [chap 21. 표현식 기반 문자열 조합](https://sangwoo0727.github.io/python/Python-13_StringFormatting/)
 
 - [X] [chap 22. 메소드 기반 문자열 조합](https://sangwoo0727.github.io/python/Python-13_StringFormatting/)
+
+- [X] chap 23. 클래스와 객체의 본질
+
+- [X] chap 24. 상속
+
+- [X] chap 25. isinstance 함수와 object 클래스
+
