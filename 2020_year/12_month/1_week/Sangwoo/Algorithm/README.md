@@ -4,3 +4,4 @@
 2. [백준 14438 수열과 쿼리 17](https://github.com/sangwoo0727/MyCoding/blob/master/SegmentTree/BOJ14438_%EC%88%98%EC%97%B4%EA%B3%BC%EC%BF%BC%EB%A6%AC17.java)
 3. [백준 1654 랜선자르기](https://github.com/sangwoo0727/MyCoding/blob/master/BinarySearch/BOJ1654_%EB%9E%9C%EC%84%A0%EC%9E%90%EB%A5%B4%EA%B8%B0.java)
 4. [백준 1365 꼬인전깃줄](https://github.com/sangwoo0727/MyCoding/blob/master/LIS/BOJ1365_%EA%BC%AC%EC%9D%B8%EC%A0%84%EA%B9%83%EC%A4%84.java)
+5. [백준 2170 선긋기](https://github.com/sangwoo0727/MyCoding/blob/master/implementation/BOJ2170_%EC%84%A0%EA%B8%8B%EA%B8%B0.java)
