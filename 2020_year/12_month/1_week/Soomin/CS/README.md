@@ -4,7 +4,7 @@
 
 - [x] 2강 Introduction to Operating Systems
 
-- [ ] 3강 System Structure & Program Execution 1
+- [x] 3강 System Structure & Program Execution 1
 
-- [ ] 4강 System Structure & Program Execution 2
+- [x] 4강 System Structure & Program Execution 2
 
