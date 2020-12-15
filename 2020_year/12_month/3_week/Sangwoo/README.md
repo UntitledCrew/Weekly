@@ -1,4 +1,4 @@
-## 2020 12월 2주차 목표
+## 2020 12월 3주차 목표
 
 - [ ] [알고리즘 5문제 이상 풀기](https://github.com/UntitledCrew/Weekly/tree/sangwoo/2020_year/12_month/3_week/Sangwoo/Algorithm)
 
