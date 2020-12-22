@@ -5,47 +5,68 @@ let N = input[0].split(' ')[0];
 let M = input[0].split(' ')[1];
 let data = [];
 
-let startW = ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B']
-let startB = ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W']
+// let startW = ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B']
+// let startB = ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W']
+
+let startW = [
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W']
+]
+let startB = [
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+    ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+    ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B']
+]
+
 
 for (let i = 1; i < input.length; i++) {
     if (input[i] !== '') {
-        data.push(input[i].split(' '))
+        data.push(input[i].split(''))
     }
 }
 
+
 let answer = 987654321
-for (let x = 0; x < M; x++) {
-    let tempAnswer = 0
-    if (x+8 <= M) {
-        for (let y = 0; y < N; y++) {
+for (let y = 0; y < N; y++) {
+    if (y+8 <= N) {
+        for (let x = 0; x < M; x++) {
             let tempAnswerW = 0
             let tempAnswerB = 0
-            if (y+8 <= N) {
+            if (x+8 <= M) {
                 console.log(y, x)
-                for (let z = 0; z < 8; z++) {
-                    let target = data[y+z][0].slice(x, x+8).split('')
-                    target.forEach((wb, index) => {
-                        if (y+z % 2) {
-                            if (wb !== startW[index]) {
-                                tempAnswerW++
-                            }
-                            if (wb !== startB[index]) {
+                for (let i = 0; i < 8; i++) {
+                    for (let j = 0; j < 8; j++) {
+                        if (i % 2) {
+                            if (data[y+i][x+j] !== startB[i][j]) {
                                 tempAnswerB++
+                            }
+                            if (data[y+i][x+j] !== startW[i][j]) {
+                                tempAnswerW++
                             }
                         } else {
-                            if (wb !== startB[index]) {
-                                tempAnswerW++
-                            }
-                            if (wb !== startW[index]) {
+                            if (data[y+i][x+j] !== startW[i][j]) {
                                 tempAnswerB++
                             }
+                            if (data[y+i][x+j] !== startB[i][j]) {
+                                tempAnswerW++
+                            }
                         }
-                    })
+                    }
                 }
-                tempAnswer = tempAnswerB > tempAnswerW ? tempAnswerW : tempAnswerB
-                if (tempAnswer < answer) {
-                    answer = tempAnswer
+                let minAnswer = tempAnswerB > tempAnswerW ? tempAnswerW : tempAnswerB
+                if (minAnswer < answer) {
+                    answer = minAnswer
                 }
             }
         }
@@ -55,29 +76,29 @@ for (let x = 0; x < M; x++) {
 console.log(answer)
 
 
-```
-10 10
-WWBBWWWBBW
-WBBWBWWWWB
-WBWBWWBBWW
-WBBBBBBBWW
-WBBWWWBWWW
-WBBBBBWWBB
-WWBWWBWWBB
-BWWBBWWWBB
-BBWBBBBBWB
-WWWBBBWWWB
+// ```
+// 10 10
+// WWBBWWWBBW
+// WBBWBWWWWB
+// WBWBWWBBWW
+// WBBBBBBBWW
+// WBBWWWBWWW
+// WBBBBBWWBB
+// WWBWWBWWBB
+// BWWBBWWWBB
+// BBWBBBBBWB
+// WWWBBBWWWB
 
 
 
 
-8 8
-WBWBWWBB
-WBBBBBBB
-WBBWWWBW
-WBBBBBWW
-WWBWWBWW
-BWWBBWWW
-BBWBBBBB
-WWWBBBWW
-```
+// 8 8
+// WBWBWWBB
+// WBBBBBBB
+// WBBWWWBW
+// WBBBBBWW
+// WWBWWBWW
+// BWWBBWWW
+// BBWBBBBB
+// WWWBBBWW
+// ```
