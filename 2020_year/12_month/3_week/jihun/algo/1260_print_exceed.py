@@ -26,7 +26,6 @@ def dfs(n, v):
 dfs(N, V)
 
 flag = [1] + [0] * (N)
-check = [[0] * (N + 1) for _ in range(N+1)]
 
 bfs_answer = []
 queue = []
