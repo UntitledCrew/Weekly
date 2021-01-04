@@ -12,3 +12,5 @@
 2. [백준 9095 123더하기](https://github.com/sangwoo0727/Algorithm/blob/master/DP_TopDown/BOJ9095_123%EB%8D%94%ED%95%98%EA%B8%B0_topdown.java)
 
 ## 알고리즘 스터디
+1. [백준 1697 숨바꼭질](https://github.com/sangwoo0727/Algorithm/blob/master/DFS_BFS/BOJ1697_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88.java)
+2. [백준 2206 벽부수고이동하기](https://github.com/sangwoo0727/Algorithm/blob/master/DFS_BFS/BOJ2206_%EB%B2%BD%EB%B6%80%EC%88%98%EA%B3%A0%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.java)
