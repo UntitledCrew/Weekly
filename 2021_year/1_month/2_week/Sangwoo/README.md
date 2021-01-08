@@ -1,6 +1,6 @@
 ## 2021 1월 2주차 목표
 
-- [ ] [알고리즘 5문제 이상 풀기]()
+- [ ] [알고리즘 5문제 이상 풀기](https://github.com/UntitledCrew/Weekly/tree/sangwoo/2021_year/1_month/2_week/Sangwoo/Algorithm)
 
 - [ ] [알고리즘 스터디]()
 
