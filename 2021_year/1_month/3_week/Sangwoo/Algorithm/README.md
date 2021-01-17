@@ -5,6 +5,9 @@
 4. [백준 2660 회장뽑기](https://github.com/sangwoo0727/Algorithm/blob/master/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9B%8C%EC%85%9C/BOJ2660_%ED%9A%8C%EC%9E%A5%EB%BD%91%EA%B8%B0_%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%99%80%EC%83%AC.java)
 5. [백준 14722 우유도시](https://github.com/sangwoo0727/Algorithm/blob/master/DP_TopDown/BOJ14722_%EC%9A%B0%EC%9C%A0%EB%8F%84%EC%8B%9C.java)
 6. [백준 3179 백조의 호수](https://github.com/sangwoo0727/Algorithm/blob/master/BinarySearch/BOJ3179_%EB%B0%B1%EC%A1%B0%EC%9D%98%ED%98%B8%EC%88%98.java)
+7. [백준 15988 123 더하기3](https://github.com/sangwoo0727/Algorithm/blob/master/DynamicProgramming/BOJ15988_123%EB%8D%94%ED%95%98%EA%B8%B03.java)
+8. [백준 1956 운동](https://github.com/sangwoo0727/Algorithm/blob/master/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9B%8C%EC%85%9C/BOJ1956_%EC%9A%B4%EB%8F%99.java)
+9. [백준 1254 팰린드롬만들기](https://github.com/sangwoo0727/Algorithm/blob/master/String/BOJ1254_%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%EB%A7%8C%EB%93%A4%EA%B8%B0.java)
 
 ## 알고리즘 스터디
 1. [백준 15649 N과M 1](https://github.com/sangwoo0727/Algorithm/blob/master/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15649_N%EA%B3%BCM1.java)
