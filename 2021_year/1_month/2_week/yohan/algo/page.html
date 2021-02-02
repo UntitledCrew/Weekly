@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      text-align: center;
+      color: #fff;
+      background-color: rgb(0,0,0, 0.85);
+    }
+
+    #result-div {
+      background-color: rgb(88, 216, 152);
+      border-radius: 10px;
+      margin: 40px auto;
+      padding: 20px 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h3>코드 결과 보는 화면</h3>
+  <button onclick="runCode()">코드 실행!</button>
+  <button onclick="reset()">초기화</button>
+
+  <div id="result-div">
+    결과는 여기에 표시됩니다 <br />
+  </div>
+
+  <script>
+    // 코드작성
+    const resultDiv = document.getElementById('result-div');
+
+    const runCode = () => {
+      let result = "";
+
+      
+      resultDiv.innerHTML = ``;
+    }
+
+    const reset = () => {
+      resultDiv.innerHTML = "결과는 여기에 표시됩니다"
+    }
+  </script>
+</body>
+</html>
