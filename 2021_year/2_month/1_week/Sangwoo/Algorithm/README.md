@@ -9,6 +9,9 @@
 8. [백준 1629 곱셈](https://github.com/sangwoo0727/Algorithm/blob/master/Math/BOJ1629_%EA%B3%B1%EC%85%88.java)
 9. [백준 1339 단어수학](https://github.com/sangwoo0727/Algorithm/blob/master/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1339_%EB%8B%A8%EC%96%B4%EC%88%98%ED%95%99.java)
 10. [백준 1043 거짓말](https://github.com/sangwoo0727/Algorithm/blob/master/DisjointSet/BOJ1043_%EA%B1%B0%EC%A7%93%EB%A7%90.java)
+11. [백준 6118 숨바꼭질](https://github.com/sangwoo0727/Algorithm/blob/master/DFS_BFS/BOJ6118_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88.java)
+12. [백준 15691 회전초밥](https://github.com/sangwoo0727/Algorithm/blob/master/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0%26%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A9%EC%9C%88%EB%8F%84%EC%9A%B0/BOJ15691_%ED%9A%8C%EC%A0%84%EC%B4%88%EB%B0%A5.java)
+13. [백준 1253 좋다](https://github.com/sangwoo0727/Algorithm/blob/master/BinarySearch/BOJ1253_%EC%A2%8B%EB%8B%A4.java)
 
 ## 알고리즘 스터디
 
